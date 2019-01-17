@@ -1,1 +1,0 @@
-# kingrayhan.github.io

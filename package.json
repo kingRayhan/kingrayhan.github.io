@@ -1,0 +1,21 @@
+{
+    "name": "doc",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "eject": "vuepress eject docs",
+        "dev": "vuepress dev docs",
+        "build": "vuepress build docs",
+        "deploy": "gh-pages -d docs/.vuepress/dist"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "vuepress": "^0.14.8"
+    },
+    "dependencies": {
+        "gh-pages": "^2.0.1"
+    }
+}

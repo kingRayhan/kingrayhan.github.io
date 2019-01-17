@@ -1,0 +1,45 @@
+// colors
+$accentColor = #3eaf7c
+$textColor = #2c3e50
+$borderColor = #eaecef
+$codeBgColor = #282c34
+$arrowBgColor = #ccc
+$red = #e74c3c
+
+// layout
+$navbarHeight = 3.6rem
+$sidebarWidth = 20rem
+$contentWidth = 740px
+
+// responsive breakpoints
+$MQNarrow = 959px
+$MQMobile = 719px
+$MQMobileNarrow = 419px
+
+// code
+$lineNumbersWrapperWidth = 3.5rem
+$codeLang = js ts html md vue css sass scss less stylus go java c sh yaml py
+
+
+.button
+    display inline-block
+    font-size 1.2rem
+    color #fff
+    padding 0.8rem 1.6rem
+    border-radius 4px
+    transition background-color 0.1s ease
+    box-sizing border-box
+    &.primary
+        background-color $accentColor
+        border-bottom 1px solid $accentColor
+        &:hover
+            background-color rgba($accentColor , .9);
+            text-decoration none !important 
+    &.red
+        background-color $red
+        border-bottom 1px solid $red
+        &:hover
+            background-color rgba($red , .9);
+            text-decoration none !important
+
+
